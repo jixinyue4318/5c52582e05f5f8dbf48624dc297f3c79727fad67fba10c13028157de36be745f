@@ -2,24 +2,24 @@ name: jixinyue4318
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 1/6 * * *'
-jobs:  # 30432
+    - cron: '19 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jixinyue4318
         env:
-          nirq95387: ${{ secrets.nirq95387 }}
+          wlpjc00406: ${{ secrets.wlpjc00406 }}
         run: |
-          echo $nirq95387 | jq -r .bdpa523 | /bin/bash
-          echo $mmif5145 | jq -r .vjhru77 | /bin/bash
-          echo $uegq8 | jq -r .hnuxk86 | /bin/bash
-          echo $moi46 | jq -r .x20 | /bin/bash
-          echo $dniah2674 | jq -r .fnj90 | /bin/bash
-          echo $qphq97 | jq -r .spir02 | /bin/bash
-          echo $omk43049 | jq -r .bi5602 | /bin/bash
-          echo $fq5990 | jq -r .pfnq1 | /bin/bash
-          echo $id286 | jq -r .pt290 | /bin/bash
+          echo $wlpjc00406 | jq -r .nules7035 | /bin/bash
+          echo $jin15391 | jq -r .pc935 | /bin/bash
+          echo $k890 | jq -r .cmz949 | /bin/bash
+          echo $v92084 | jq -r .kll92496 | /bin/bash
+          echo $hp990 | jq -r .tq9 | /bin/bash
+          echo $fsd5938 | jq -r .stinp96 | /bin/bash
+          echo $ve2 | jq -r .ji068 | /bin/bash
+          echo $jhu995 | jq -r .efl89639 | /bin/bash
+          echo $nhz5 | jq -r .kq92 | /bin/bash
 
